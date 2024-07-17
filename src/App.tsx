@@ -10,6 +10,8 @@ function App() {
         {
           Header: "Name",
           accessor: "name",
+          // TODO fix types
+          disableFilters: true,
         },
         {
           Header: "Regions",
